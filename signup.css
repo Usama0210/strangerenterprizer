@@ -1,0 +1,111 @@
+body{
+    margin: 0 0 0 0;
+    font-family: Arial, Helvetica, sans-serifs;
+}
+.header{
+    position: relative;
+    display: flex;
+    background-color:#4d9f7e;
+    height: 165px;
+}
+.Signup-title{
+    position: absolute;
+    width: 20%;
+    margin: 0 0 0 0;
+    top: 25px;
+    left: 300px;
+    justify-content: center;
+    align-items: center;
+}
+.back{
+    position: absolute;
+    background-color: rgb(163, 39, 39);
+    justify-content: center;
+    margin: 0 0 0 0;
+    width: 70px;
+    height: 70px;
+    top: 0px;
+    left: 60px;
+    padding-left: 52px;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    padding-right: 50px;
+}
+.header-line{
+    position: absolute;
+    display: flex;
+    color: rgb(0, 0, 0);
+    margin: 0 0 0 0;
+    left: 290px;
+    top: 115px;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: unset;
+}
+.dashborad-img{
+    width: 100%;
+    margin-top: -2px;
+}
+.username-password{ 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 100px;
+    padding-right: 150px;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+}
+.username,
+.password{
+    height: 40px;
+    display: grid;
+    grid-template-columns: 2;
+    column-gap: 20px;
+    justify-content: space-between;
+    
+}
+.username-password div{
+    font-style: oblique;
+    font-size: 20px;
+    font-weight: 500px;
+    font-weight: 600;
+}
+.text{
+    height: 25px;
+    display: grid;
+    font-weight: 500;
+    font-style: oblique;
+    margin-left: 15px;
+    border-radius: 2px;
+    border-color: #1e3ca96e;
+    align-items: center;
+}
+.signup{
+    display: flex;
+    margin-left: 750px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    background-color: rgb(165, 41, 41);
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    color: black; 
+}
+.footer{
+    height: 60px;
+    width: 100%;
+    background-color:#4d9f7e;
+    color: rgb(0, 0, 0);
+    margin-bottom: 0px;
+}
+.footer-content{
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 40px;
+}

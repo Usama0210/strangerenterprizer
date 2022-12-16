@@ -1,0 +1,114 @@
+body{
+    margin: 0 0 0 0;
+    font-family: Arial, Helvetica, sans-serifs;
+}
+.header{
+    position: relative;
+    display: flex;
+    background-color:#1e3ca96e;
+    height: 165px;
+}
+.login-title{
+    position: absolute;
+    width: 20%;
+    margin: 0 0 0 0;
+    top: 25px;
+    left: 300px;
+    justify-content: center;
+    align-items: center;
+}
+.back{
+    position: absolute;
+    background-color: rgb(39, 86, 163);
+    justify-content: center;
+    margin: 0 0 0 0;
+    width: 70px;
+    height: 70px;
+    top: 0px;
+    left: 60px;
+    padding-left: 52px;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    padding-right: 50px;
+}
+.header-line{
+    position: absolute;
+    display: flex;
+    color: rgb(0, 0, 0);
+    margin: 0 0 0 0;
+    left: 290px;
+    top: 115px;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: unset;
+}
+.dashborad-img{
+    width: 100%;
+    margin-top: -2px;
+}
+.username-password{ 
+display: flex;
+width: fit-content;
+width: 100%;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 200px;
+}
+.username,
+.password{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    font-style: inherit;
+    font-weight: 600;
+}
+.username{
+    font-size: 24px;
+}
+.password{
+    font-size: 24.5px;
+}
+.text{
+    height: 25px;
+    display: flex;
+    margin-left: 15px;
+    border-radius: 2px;
+    border-color: #1e3ca96e;
+    align-items: center;
+}
+.login{
+    background-color: rgb(39, 86, 163);
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    color: black; 
+}
+.signup{
+    margin-top: 10px;
+    font-style: oblique;
+    font-size: large;
+    font-weight: 700;
+    color: black;
+}
+a{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+}
+.footer{
+    height: 60px;
+    width: 100%;
+    background-color:#1e3ca96e;
+    color: rgb(0, 0, 0);
+}
+.footer-content{
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 40px;
+}
